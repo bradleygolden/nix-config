@@ -8,6 +8,7 @@
 
   environment.systemPackages =
     [
+      pkgs.beam.packages.erlangR25.elixir_1_14
       pkgs.nixpkgs-fmt
       pkgs.vim
     ];
