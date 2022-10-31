@@ -20,6 +20,8 @@ Would you like to load darwin configuration in /etc/zshrc? [y/n] y
 
 export NIX_PATH=darwin-config=$HOME/.nixpkgs/darwin-configuration.nix:$HOME/.nix-defexpr/channels:$NIX_PATH
 
+# WARNING! Change any specific username, email, user info (try grepping "bradley")
+
 # update user specific values if applicable
 $ cp -r ./darwin-configuration.nix ./*.nix ./darwin ./home_manager ~/.nixpkgs/
 $ darwin-rebuild switch
