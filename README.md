@@ -22,5 +22,5 @@ export NIX_PATH=darwin-config=$HOME/.nixpkgs/darwin-configuration.nix:$HOME/.nix
 
 # update user specific values if applicable
 $ cp -r ./darwin-configuration.nix ./*.nix ./darwin ./home_manager ~/.nixpkgs/
-$ darwin-rebuild
+$ darwin-rebuild switch
 ```
