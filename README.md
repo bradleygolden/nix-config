@@ -4,7 +4,7 @@
 
 ```sh
 # https://nixos.org/download.html
-$ sh <(curl -L https://nixos.org/nix/install) --daemon
+$ sh <(curl -L https://nixos.org/nix/install)
 
 # https://github.com/LnL7/nix-darwin
 $ nix-build https://github.com/LnL7/nix-darwin/archive/master.tar.gz -A installer
