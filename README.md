@@ -21,6 +21,6 @@ $ nix-channel --add https://github.com/nix-community/home-manager/archive/master
 $ nix-channel --update
 
 # update user specific values if applicable
-$ cp -r ./*.nix ./darwin ./home_manager ~/.nixpkgs/
+$ cp -r ./darwin-configuration.nix ./*.nix ./darwin ./home_manager ~/.nixpkgs/
 $ darwin-rebuild
 ```
